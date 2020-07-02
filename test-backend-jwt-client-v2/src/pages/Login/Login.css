@@ -1,0 +1,55 @@
+.Login {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  min-height: 300px;
+  margin: 10px auto;
+  padding: 20px;
+  padding-top: 40px;
+  border: 1px solid #77f;
+  border-radius: 5px;
+}
+
+.Login form {
+  text-align: center;
+}
+
+.Login .message {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  right: 10px;
+
+  padding: 3px 15px;
+  margin: 2px;
+
+  max-width: 460px;
+  max-height: 60px;
+
+  font-size: 70%;
+  text-align: center;
+
+  border: 1px solid #900;
+  border-radius: 4px;
+}
+
+.Login .error_message {
+  border: 1px solid #900;
+  background-color: #fcc;
+}
+
+.Login .Loader {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  right: 10px;
+  text-align: center;
+
+}
+
+.Login .btn-wrapper {
+  display: flex;
+  justify-content: space-between;
+}

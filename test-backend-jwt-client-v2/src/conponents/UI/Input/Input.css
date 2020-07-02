@@ -1,0 +1,28 @@
+.Input {
+  margin: 0 0 40px 15px;
+  text-align: center;
+}
+
+.Input:last-child {
+  margin-bottom: 5px;
+}
+
+.Input input {
+  padding: 5px;
+  margin-left: 10px;
+  border: none;
+  border-bottom: 1px solid #77f;
+}
+
+.Input input:focus, .Input input:active {
+  border-bottom: 2px solid #00f;
+  padding-bottom: 4px;
+}
+
+.Input .input-error {
+  width: 100%;
+  min-height: 15px;
+  padding: 3px;
+  font-size: 70%;
+  background-color: #fcc;
+}

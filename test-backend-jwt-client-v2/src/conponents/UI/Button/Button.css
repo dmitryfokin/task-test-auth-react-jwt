@@ -1,0 +1,14 @@
+.Button {
+  border: 1px solid #77f;
+  border-radius: 4px;
+  padding: 5px 15px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.Button:hover {
+  background-color: #fff;
+  box-shadow: 0px -1px 14px 0px rgba(119, 119, 255, 0.62);
+  -webkit-box-shadow: 0px -1px 14px 0px rgba(119, 119, 255, 0.62);
+  -moz-box-shadow: 0px -1px 14px 0px rgba(119, 119, 255, 0.62);
+}

@@ -1,0 +1,26 @@
+.Navbar {
+  padding-top: 15px;
+}
+
+.Navbar ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Navbar ul li {
+  margin-right: 30px;
+}
+
+.Navbar ul li:last-child {
+  margin-right: 0;
+}
+
+.Navbar ul li a {
+  padding: 15px;
+  text-decoration: none;
+  color: black;
+  outline: none;
+}

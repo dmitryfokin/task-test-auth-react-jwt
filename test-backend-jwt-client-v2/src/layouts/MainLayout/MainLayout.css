@@ -1,0 +1,14 @@
+.MainLayout {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.MainLayout header {
+  margin-bottom: 5px;
+}
+
+.MainLayout main {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}

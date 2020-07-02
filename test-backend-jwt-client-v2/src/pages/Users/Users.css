@@ -1,0 +1,25 @@
+.Users {
+  position: relative;
+}
+
+.Users .Loader {
+  position: absolute;
+  left: 50%;
+  top: 50px;
+}
+
+.Users ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Users ul li {
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  border-bottom: 1px solid #77f;
+}
+
+.Users ul li:last-child {
+  margin-bottom: 0;
+}
